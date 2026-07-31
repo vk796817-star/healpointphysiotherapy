@@ -80,4 +80,21 @@ section{
 .gallery img:hover{
     transform:scale(1.08);
     box-shadow:0 10px 25px rgba(0,0,0,.3);
+}html{
+    scroll-behavior:smooth;
+}
+
+section{
+    animation:fadeUp 0.8s ease;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
 }
