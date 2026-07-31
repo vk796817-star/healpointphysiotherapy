@@ -3,95 +3,114 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Healpoint Physiotherapy | Physiotherapy at Home in Dwarka</title>
-
-<meta name="description" content="Healpoint Physiotherapy provides expert physiotherapy treatment and home physiotherapy services in Dwarka, New Delhi. Book your appointment today.">
-
-<meta name="keywords" content="Physiotherapy in Dwarka, Home Physiotherapy, Back Pain, Neck Pain, Sciatica, Knee Pain, Stroke Rehabilitation, Physiotherapist Delhi">
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<title>Healpoint Physiotherapy | Home Physiotherapy in Dwarka</title>
 
 <style>
-
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:'Poppins',sans-serif;
+font-family:Arial,sans-serif;
 }
 
 body{
-background:#f7fbff;
-color:#222;
+background:#f5f9fc;
+color:#333;
 }
 
 header{
-background:#0b6efd;
-padding:18px 8%;
+background:#0b7dda;
+color:white;
+padding:15px 8%;
 display:flex;
 justify-content:space-between;
 align-items:center;
-position:sticky;
-top:0;
-z-index:1000;
 }
 
 .logo{
 font-size:28px;
-font-weight:700;
-color:white;
+font-weight:bold;
 }
 
 nav a{
-text-decoration:none;
 color:white;
-margin-left:25px;
-font-weight:500;
+text-decoration:none;
+margin-left:20px;
+font-weight:bold;
 }
 
 .hero{
+height:90vh;
 display:flex;
+justify-content:center;
 align-items:center;
-justify-content:space-between;
-padding:80px 8%;
-background:linear-gradient(135deg,#0b6efd,#4aa3ff);
+text-align:center;
+background:linear-gradient(rgba(0,90,170,.75),rgba(0,90,170,.75)),url("https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1600&q=80");
+background-size:cover;
+background-position:center;
 color:white;
-flex-wrap:wrap;
+padding:20px;
 }
 
-.hero-text{
-max-width:600px;
-}
-
-.hero-text h1{
+.hero h1{
 font-size:48px;
 margin-bottom:20px;
 }
 
-.hero-text p{
-font-size:18px;
-line-height:1.8;
+.hero p{
+font-size:20px;
 margin-bottom:30px;
 }
 
 .btn{
-display:inline-block;
-padding:15px 30px;
-background:white;
-color:#0b6efd;
+background:#00c853;
+padding:15px 35px;
+color:white;
 text-decoration:none;
-border-radius:40px;
-font-weight:600;
+border-radius:30px;
+font-weight:bold;
+display:inline-block;
 }
 
-.hero img{
-width:420px;
-max-width:100%;
-border-radius:20px;
-box-shadow:0 10px 25px rgba(0,0,0,.2);
+section{
+padding:70px 8%;
 }
 
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+footer{
+background:#0b7dda;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+}
+
+nav{
+margin-top:15px;
+}
+
+.hero h1{
+font-size:32px;
+}
+
+}
 </style>
 
 </head>
@@ -106,35 +125,66 @@ Healpoint Physiotherapy
 
 <nav>
 <a href="#">Home</a>
-<a href="#">About</a>
 <a href="#">Services</a>
-<a href="#">Reviews</a>
+<a href="#">About</a>
 <a href="#">Contact</a>
 </nav>
 
 </header>
 
-<section class="hero">
+<div class="hero">
 
-<div class="hero-text">
+<div>
 
-<h1>Expert Physiotherapy & Home Physiotherapy Services</h1>
+<h1>Expert Physiotherapy at Home in Dwarka</h1>
 
-<p>
-Recover faster with evidence-based physiotherapy treatment for back pain,
-neck pain, sciatica, knee pain, sports injuries, stroke rehabilitation and more.
-Personalized care at clinic and home in Dwarka, New Delhi.
-</p>
+<p>Pain Relief • Rehabilitation • Home Physiotherapy • Experienced Physiotherapist</p>
 
-<a href="tel:+919634523208" class="btn">
-Book Appointment
+<a href="tel:7505702567" class="btn">
+Call Now
 </a>
 
 </div>
 
-<img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900" alt="Physiotherapy">
+</div>
+
+<section>
+
+<h2 style="text-align:center;margin-bottom:40px;">
+Our Services
+</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Back Pain</h3>
+<p>Evidence-based treatment for back pain and sciatica.</p>
+</div>
+
+<div class="card">
+<h3>Neck Pain</h3>
+<p>Professional physiotherapy for cervical pain.</p>
+</div>
+
+<div class="card">
+<h3>Knee Pain</h3>
+<p>Personalized rehabilitation and strengthening.</p>
+</div>
+
+<div class="card">
+<h3>Home Visit</h3>
+<p>Physiotherapy services at your doorstep in Dwarka.</p>
+</div>
+
+</div>
 
 </section>
+
+<footer>
+
+© 2026 Healpoint Physiotherapy | All Rights Reserved
+
+</footer>
 
 </body>
 </html>
