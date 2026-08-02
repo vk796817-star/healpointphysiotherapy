@@ -42,25 +42,27 @@ h2{
 }
 
 .card:hover{
+    .card{
+    cursor:pointer;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+.btn{
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
     transform:translateY(-5px);
 }
-html{
-    scroll-behavior:smooth;
-}
 
-section{
-    animation:fadeUp 1s ease;
-}
 
-@keyframes fadeUp{
-    from{
-        opacity:0;
-        transform:translateY(40px);
-    }
-    to{
-        opacity:1;
-        transform:translateY(0);
-    }
+
 }.gallery{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
