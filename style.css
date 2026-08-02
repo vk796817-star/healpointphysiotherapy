@@ -100,3 +100,16 @@ section{
         transform:translateY(0);
     }
 }
+.hero-content h2{
+    font-size:28px;
+    margin:15px 0;
+    color:#fff;
+}
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-top:25px;
+}
